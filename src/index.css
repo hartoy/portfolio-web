@@ -1,0 +1,28 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  margin: 0;
+  font-family: 'Noto Sans',
+      sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* TIPOGRAFIA FONT AWESOME */
+
+/* 
+font-family: 'Dosis',
+sans-serif;
+font-family: 'Noto Sans',
+sans-serif;
+font-family: 'Teko',
+sans-serif; 
+*/
+
