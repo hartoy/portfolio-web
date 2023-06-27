@@ -12,7 +12,7 @@ const Works = () => {
         {/* WORK TEXT */}
         <div className="workText md:text-[22px]  text-justify">
           <h2 className="md:text-[72px] text-[42px] mb-4 text-center uppercase">Proyectos</h2>
-          <p className="mb-8 md:mb-12">
+          <p className="mb-8 md:mb-12 italic text-[#DBE2EF]">
             A continuacion podras algunos de los proyectos en los que trabaje. Varios de estos fueron desarrollados por
             mi, pero otros fueron fruto de un excelente trabajo en equipo. Espero poder sumar muchos mas a esta lista!
           </p>

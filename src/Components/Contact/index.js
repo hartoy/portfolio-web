@@ -18,27 +18,27 @@ const Contact = () => {
             <h2 className=" md:text-[42px] text-[22px] text-center mt-3">Trabajemos juntos!</h2>
           </div>
         </motion.div>
-        <form className="flex-1 border rounded flex flex-col gap-y-6 pb-16 p-6 items-start">
+        <form className="flex-1 border rounded flex flex-col gap-y-6 pb-16 p-6 items-start hover:bg-[#3F72AF]">
           <input
-            className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:placeholder:text-sky-500 transition-all"
+            className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:placeholder:text-sky-500 transition-all hover:border-[#112D4E]"
             type="text"
             placeholder="Nombre"
           />
           <input
-            className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:placeholder:text-sky-500 transition-all"
+            className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:placeholder:text-sky-500 transition-all hover:border-[#112D4E]"
             type="text"
             placeholder="Email"
           />
           <textarea
-            className=" bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:placeholder:text-sky-500 resize-none mb-12"
+            className=" bg-transparent hover:border-[#112D4E] border-b py-12 outline-none w-full placeholder:text-white focus:placeholder:text-sky-500 resize-none mb-12"
             placeholder="Escribe tu mensaje"
           ></textarea>
           <motion.button
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
-            className="text-gray-900 md:w-[150px] md:h-[40px] bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 shadow-lg shadow-lime-500/50 dark:shadow-lg dark:shadow-lime-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
+            className="md:w-[150px] md:h-[40px] bg-[#DBE2EF] hover:bg-[#F9F7F7] focus:ring-4 focus:outline-none focus:[#3F72AF] dark:focus:[#3F72AF] shadow-lg shadow-[#3F72AF] dark:shadow-lg dark:shadow-[#3F72AF] font-medium rounded-lg text-sm px-5 py-2.5 text-center uppercase text-[#3F72AF]"
           >
-            Enviar mensaje
+            Enviar
           </motion.button>
         </form>
       </div>

@@ -15,13 +15,13 @@ export const dataExp = [
     dateIn: '1/3/22',
     dateEnd: '15/4/23',
     description:
-      'Maquetado web desde Figma, Photoshop o Illustrator. Markup bugfixing de web apps.Colaboración con equipos de desarrollo backend en la integración de API’s.Exploración tecnologías frontend como ReactJs.',
+      'Maquetado web desde Figma, Photoshop o Illustrator. Markup bugfixing de web apps. Colaboración con equipos de desarrollo backend en la integración de API’s.Exploración tecnologías frontend como ReactJs.',
     link: 'https://www.linkedin.com/company/genosha/',
   },
   {
     id: '2',
     name: 'Somos Mas',
-    puesto: 'Desarrollador de front-end',
+    puesto: 'Desarrollador de Frontend',
     dateIn: '1/10/21',
     dateEnd: '15/1/22',
     description:
@@ -41,17 +41,17 @@ export const dataExp = [
   {
     id: '4',
     name: 'Arq Nilsson',
-    puesto: 'Desarrollador Full Stack',
+    puesto: 'Desarrollador Frontend',
     dateIn: '1/9/20',
     dateEnd: '1/12/20',
     description:
-      'Desarrollo de sitio web responsive utilizando HTML, CSS y JS donde se muestran proyectos, obras y proyecciones',
+      'Desarrollo de sitio web responsive utilizando HTML, CSS y JS donde se muestran proyectos, obras y proyecciones del arquitecto Leon Nilsson.',
     link: 'https://github.com/hartoy/Arq-Leon-Nilsson',
   },
   {
     id: '5',
     name: 'Sysmic',
-    puesto: 'Desarrollador Full Stack',
+    puesto: 'Desarrollador Frontend',
     dateIn: '1/8/20',
     dateEnd: '1/9/20',
     description:

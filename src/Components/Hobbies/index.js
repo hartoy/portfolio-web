@@ -21,20 +21,20 @@ const Hobbies = () => {
   return (
     <div className="container flex flex-col  px-4 mx-auto md:px-8 lg:max-w-7xl mt-[80px] md:items-center text-white">
       <h2 className="md:text-[72px] text-[42px] mb-4 text-center uppercase">HOBBIES</h2>
-      <span className="text-justify md:text-[22px]">
+      <span className="text-justify md:text-[22px] italic text-[#DBE2EF]">
         Todos necesitamos hobbies para evitar el estrés, la rutina diaria y la vida sedentaria. Aquí podrás conocer las
         actividades que me motivan día a día, desafiándome física y mentalmente, y que me permiten desarrollar mi
         creatividad al desconectarme de mis obligaciones por un rato.
       </span>
       <div className="flex flex-col md:flex-row mt-[40px] text-center">
         <div className="flex flex-col">
-          <div className="hobbies grid md:grid-cols-2 gap-2">
+          <div className="hobbies grid md:grid-cols-2 gap-2 hover:p-0">
             <div className="flex flex-col">
               <span className="uppercase text-[32px]">Equipos favoritos</span>
               <span className="italic">"Si nunca pierdes, no disfrutarás la felicidad de la victoria"</span>
               <div className="imgs flex flex-row justify-evenly mt-3 mb-7">
                 <img
-                  className="w-1/5 rounded-full border-[4px] border-purple-900"
+                  className="w-1/5 rounded-full border-[4px] border-[#3F72AF] p-2 hover:p-0"
                   src={ImgAfa}
                   alt=""
                   data-tooltip-id="afa"
@@ -42,7 +42,7 @@ const Hobbies = () => {
                   data-tooltip-place="bottom"
                 />
                 <img
-                  className="w-1/5 rounded-full border-[4px] border-purple-900"
+                  className="w-1/5 rounded-full border-[4px] border-[#3F72AF] p-2 hover:p-0"
                   src={ImgRiver}
                   alt=""
                   data-tooltip-id="carp"
@@ -50,7 +50,7 @@ const Hobbies = () => {
                   data-tooltip-place="bottom"
                 />
                 <img
-                  className="w-1/5 rounded-full border-[4px] border-purple-900"
+                  className="w-1/5 rounded-full border-[4px] border-[#3F72AF] p-2 hover:p-0 "
                   src={ImgTB}
                   alt=""
                   data-tooltip-id="tampa"
@@ -58,7 +58,7 @@ const Hobbies = () => {
                   data-tooltip-place="bottom"
                 />
                 <img
-                  className="w-1/5 rounded-full border-[4px] border-purple-900"
+                  className="w-1/5 rounded-full border-[4px] border-[#3F72AF] p-2 hover:p-0"
                   src={ImgLA}
                   alt=""
                   data-tooltip-id="lakers"
@@ -66,10 +66,10 @@ const Hobbies = () => {
                   data-tooltip-place="bottom"
                 />
               </div>
-              <Tooltip id="afa" />
-              <Tooltip id="carp" />
-              <Tooltip id="tampa" />
-              <Tooltip id="lakers" />
+              <Tooltip style={{ backgroundColor: '#F9F7F7', color: '#3F72AF' }} id="afa" />
+              <Tooltip style={{ backgroundColor: '#F9F7F7', color: '#3F72AF' }} id="carp" />
+              <Tooltip style={{ backgroundColor: '#F9F7F7', color: '#3F72AF' }} id="tampa" />
+              <Tooltip style={{ backgroundColor: '#F9F7F7', color: '#3F72AF' }} id="lakers" />
             </div>
 
             <div className="flex flex-col">
@@ -79,7 +79,7 @@ const Hobbies = () => {
               </span>
               <div className="imgs flex flex-row justify-evenly mt-3 mb-7">
                 <img
-                  className="w-1/5 rounded-full border-[4px] border-purple-900"
+                  className="w-1/5 rounded-full border-[4px] border-[#3F72AF] p-2 hover:p-0"
                   src={ImgSocc}
                   alt=""
                   data-tooltip-id="futbol"
@@ -87,7 +87,7 @@ const Hobbies = () => {
                   data-tooltip-place="bottom"
                 />
                 <img
-                  className="w-1/5 rounded-full border-[4px] border-purple-900"
+                  className="w-1/5 rounded-full border-[4px] border-[#3F72AF] p-2 hover:p-0"
                   src={ImgNfl}
                   alt=""
                   data-tooltip-id="nfl"
@@ -95,7 +95,7 @@ const Hobbies = () => {
                   data-tooltip-place="bottom"
                 />
                 <img
-                  className="w-1/5 rounded-full border-[4px] border-purple-900"
+                  className="w-1/5 rounded-full border-[4px] border-[#3F72AF] p-2 hover:p-0"
                   src={ImgNba}
                   alt=""
                   data-tooltip-id="nba"
@@ -103,18 +103,18 @@ const Hobbies = () => {
                   data-tooltip-place="bottom"
                 />
                 <img
-                  className="w-1/5 rounded-full border-[4px] border-purple-900"
+                  className="w-1/5 rounded-full border-[4px] border-[#3F72AF] p-2 hover:p-0"
                   src={ImgBox}
                   alt=""
                   data-tooltip-id="boxing"
-                  data-tooltip-content="boxing"
+                  data-tooltip-content="Boxing"
                   data-tooltip-place="bottom"
                 />
               </div>
-              <Tooltip id="futbol" />
-              <Tooltip id="nfl" />
-              <Tooltip id="nba" />
-              <Tooltip id="boxing" />
+              <Tooltip style={{ backgroundColor: '#F9F7F7', color: '#3F72AF' }} id="futbol" />
+              <Tooltip style={{ backgroundColor: '#F9F7F7', color: '#3F72AF' }} id="nfl" />
+              <Tooltip style={{ backgroundColor: '#F9F7F7', color: '#3F72AF' }} id="nba" />
+              <Tooltip style={{ backgroundColor: '#F9F7F7', color: '#3F72AF' }} id="boxing" />
             </div>
 
             <div className="flex flex-col">
@@ -122,7 +122,7 @@ const Hobbies = () => {
               <span className="italic">"Si no fuera por la música, habría más razones para volverse loco"</span>
               <div className="imgs flex flex-row justify-evenly mt-3 mb-7">
                 <img
-                  className="w-1/5 rounded-full border-[4px] border-purple-900"
+                  className="w-1/5 rounded-full border-[4px] border-[#3F72AF] p-2 hover:p-0"
                   src={ImgTest}
                   alt=""
                   data-tooltip-id="tw"
@@ -130,7 +130,7 @@ const Hobbies = () => {
                   data-tooltip-place="bottom"
                 />
                 <img
-                  className="w-1/5 rounded-full border-[4px] border-purple-900"
+                  className="w-1/5 rounded-full border-[4px] border-[#3F72AF] p-2 hover:p-0"
                   src={ImgMJ}
                   alt=""
                   data-tooltip-id="mj"
@@ -138,7 +138,7 @@ const Hobbies = () => {
                   data-tooltip-place="bottom"
                 />
                 <img
-                  className="w-1/5 rounded-full border-[4px] border-purple-900"
+                  className="w-1/5 rounded-full border-[4px] border-[#3F72AF] p-2 hover:p-0"
                   src={ImgMiley}
                   alt=""
                   data-tooltip-id="miley"
@@ -146,7 +146,7 @@ const Hobbies = () => {
                   data-tooltip-place="bottom"
                 />
                 <img
-                  className="w-1/5 rounded-full border-[4px] border-purple-900"
+                  className="w-1/5 rounded-full border-[4px] border-[#3F72AF] p-2 hover:p-0"
                   src={ImgEspacio}
                   alt=""
                   data-tooltip-id="space"
@@ -154,10 +154,10 @@ const Hobbies = () => {
                   data-tooltip-place="bottom"
                 />
               </div>
-              <Tooltip id="tw" />
-              <Tooltip id="mj" />
-              <Tooltip id="miley" />
-              <Tooltip id="space" />
+              <Tooltip style={{ backgroundColor: '#F9F7F7', color: '#3F72AF' }} id="tw" />
+              <Tooltip style={{ backgroundColor: '#F9F7F7', color: '#3F72AF' }} id="mj" />
+              <Tooltip style={{ backgroundColor: '#F9F7F7', color: '#3F72AF' }} id="miley" />
+              <Tooltip style={{ backgroundColor: '#F9F7F7', color: '#3F72AF' }} id="space" />
             </div>
 
             <div className="flex flex-col">
@@ -165,7 +165,7 @@ const Hobbies = () => {
               <span className="italic">"Si estás perdiendo tu tiempo libre puede que estés perdiendo tu alma”</span>
               <div className="imgs flex flex-row justify-evenly mt-3 mb-7">
                 <img
-                  className="w-1/5 rounded-full border-[4px] border-purple-900"
+                  className="w-1/5 rounded-full border-[4px] border-[#3F72AF] p-2 hover:p-0"
                   src={ImgValo}
                   alt=""
                   data-tooltip-id="valo"
@@ -173,7 +173,7 @@ const Hobbies = () => {
                   data-tooltip-place="bottom"
                 />
                 <img
-                  className="w-1/5 rounded-full border-[4px] border-purple-900"
+                  className="w-1/5 rounded-full border-[4px] border-[#3F72AF] p-2 hover:p-0"
                   src={ImgF23}
                   alt=""
                   data-tooltip-id="fifa23"
@@ -181,7 +181,7 @@ const Hobbies = () => {
                   data-tooltip-place="bottom"
                 />
                 <img
-                  className="w-1/5 rounded-full border-[4px] border-purple-900"
+                  className="w-1/5 rounded-full border-[4px] border-[#3F72AF] p-2 hover:p-0"
                   src={ImgBtf}
                   alt=""
                   data-tooltip-id="btf"
@@ -189,7 +189,7 @@ const Hobbies = () => {
                   data-tooltip-place="bottom"
                 />
                 <img
-                  className="w-1/5 rounded-full border-[4px] border-purple-900"
+                  className="w-1/5 rounded-full border-[4px] border-[#3F72AF] p-2 hover:p-0"
                   src={ImgLol}
                   alt=""
                   data-tooltip-id="lol"
@@ -197,10 +197,10 @@ const Hobbies = () => {
                   data-tooltip-place="bottom"
                 />
               </div>
-              <Tooltip id="valo" />
-              <Tooltip id="fifa23" />
-              <Tooltip id="btf" />
-              <Tooltip id="lol" />
+              <Tooltip style={{ backgroundColor: '#F9F7F7', color: '#3F72AF' }} id="valo" />
+              <Tooltip style={{ backgroundColor: '#F9F7F7', color: '#3F72AF' }} id="fifa23" />
+              <Tooltip style={{ backgroundColor: '#F9F7F7', color: '#3F72AF' }} id="btf" />
+              <Tooltip style={{ backgroundColor: '#F9F7F7', color: '#3F72AF' }} id="lol" />
             </div>
           </div>
         </div>
