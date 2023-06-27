@@ -1,0 +1,47 @@
+/* ANIMATION NAVBAR MENU*/
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+}
+
+.menu-dropdown-open {
+    display: block;
+
+    @media (max-width: 767px) {
+        animation: slideDown 0.5s ease-in-out;
+    }
+
+    @media (min-width: 768px) {
+        display: none;
+    }
+}
+
+.menu-dropdown-close {
+    @media (max-width: 767px) {
+        animation: slideUp 0.5s ease-in-out;
+    }
+
+    @media (min-width: 768px) {
+        display: none;
+    }
+}

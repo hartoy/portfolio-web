@@ -1,62 +1,61 @@
-export const dataSkills = [
-  { id: '1', name: 'HTML' },
-  { id: '2', name: 'CSS' },
-  { id: '3', name: 'JSX' },
-  { id: '4', name: 'REACT' },
-  { id: '5', name: 'LARAVEL' },
-  { id: '6', name: 'PHP' },
-  { id: '7', name: 'GIT' },
-  { id: '8', name: 'JAVASCRIPT' },
-  { id: '9', name: 'SCRUM' },
-  { id: '10', name: 'MYSQL' },
-]
+import imgDot from './Components/img/proyect-img-dot.jpg'
+import imgLesa from './Components/img/proyect-img-lesa.jpg'
+import imgTodo from './Components/img/proyect-img-todo.jpg'
+import imgMovieFlix from './Components/img/proyect-img-movieflix.jpg'
+import imgOSP from './Components/img/proyect-img-sylabus.jpg'
+import imgBasic from './Components/img/portfolio-img1.png'
+
+export const dataSkills = ['HTML', 'CSS', 'JSX', 'REACT', 'LARAVEL', 'PHP', 'GIT', 'JAVASCRIPT', 'SCRUM', 'MYSQL - ']
 
 export const dataExp = [
   {
     id: '1',
-    name: 'Genosha - Desarrollador Web',
-    puesto: '',
-    dateIn: 'Marzo 2022',
-    dateEnd: 'Abril 2023',
+    name: 'Genosha',
+    puesto: 'Desarrollador Web',
+    dateIn: '1/3/22',
+    dateEnd: '15/4/23',
     description:
-      'Maquetado web desde Figma, Photoshop o Illustrator.Markup bugfixing de web apps.Colaboración con equipos de desarrollo backend en la integración de API’s.Exploración tecnologías frontend como ReactJs.',
+      'Maquetado web desde Figma, Photoshop o Illustrator. Markup bugfixing de web apps.Colaboración con equipos de desarrollo backend en la integración de API’s.Exploración tecnologías frontend como ReactJs.',
     link: 'https://www.linkedin.com/company/genosha/',
   },
   {
     id: '2',
-    name: 'ONG Somos Mas',
+    name: 'Somos Mas',
     puesto: 'Desarrollador de front-end',
-    dateIn: 'Septiembre 2021',
-    dateEnd: 'Enero 2022',
-    description: 'Desarrollo en equipo de sitio para ONG Somos Mas utilizando React JS, Jira, y Github',
+    dateIn: '1/10/21',
+    dateEnd: '15/1/22',
+    description:
+      'Desarrollo en equipo de sitio para ONG Somos Mas utilizando React JS, Jira, y Github en un equipo de 7 personas',
     link: 'https://github.com/alkemyTech/OT104-Client',
   },
   {
     id: '3',
-    name: 'Digital House - Cuerdas',
+    name: 'Cuerdas',
     puesto: 'Desarrollador Full Stack',
-    dateIn: 'Julio 2019',
-    dateEnd: 'Diciembre 2019',
+    dateIn: '1/6/19',
+    dateEnd: '20/12/19',
     description:
-      'Desarrollo de una ecommerce utilizando HTML para la estructura, CSS para el diseño y JS para interacciones y/o validaciones del lado del cliente. - El diseño y desarrollo del FrontEnd toma las buenas prácticas de hacer sitios responsive. Se uso MySQL para la base de datos. ',
+      'Desarrollo en Digital House de una ecommerce utilizando HTML para la estructura, CSS para el diseño y JS para interacciones y/o validaciones del lado del cliente. - El diseño y desarrollo del FrontEnd toma las buenas prácticas de hacer sitios responsive. Se uso MySQL para la base de datos. ',
     link: 'https://github.com/simonyagas/proyectoDH-Sprint05',
   },
   {
     id: '4',
-    name: 'Arquitecto Leon Nilsson',
+    name: 'Arq Nilsson',
     puesto: 'Desarrollador Full Stack',
-    dateIn: 'Octubre 2020',
-    dateEnd: 'Diciembre 2020',
-    description: 'Desarrollo de sitio web responsive utilizando HTML, CSS y JS.',
+    dateIn: '1/9/20',
+    dateEnd: '1/12/20',
+    description:
+      'Desarrollo de sitio web responsive utilizando HTML, CSS y JS donde se muestran proyectos, obras y proyecciones',
     link: 'https://github.com/hartoy/Arq-Leon-Nilsson',
   },
   {
     id: '5',
-    name: '',
+    name: 'Sysmic',
     puesto: 'Desarrollador Full Stack',
-    dateIn: 'Agosto 2020',
-    dateEnd: 'Noviembre 2020',
-    description: 'Desarrollo de sitio web responsive utilizando HTML ,CSS ,JS y Laravel.',
+    dateIn: '1/8/20',
+    dateEnd: '1/9/20',
+    description:
+      'Desarrollo de sitio web responsive utilizando HTML, CSS y JS en Lavarel para compañia de venta de articulos de sonido',
     link: 'https://github.com/hartoy/sysmic',
   },
 ]
@@ -64,55 +63,74 @@ export const dataExp = [
 export const outExp = [
   {
     id: '1',
-    name: 'Administracion Cristina Gonzalez',
+    name: 'Adm C.Gonzalez',
     puesto: 'Empleado administrativo',
-    dateIn: 'Enero 2012',
-    dateEnd: 'Marzo 2023',
+    description:
+      'Atencion telefonica. Armado de expensas. Planificacion y pago a proveedores. Gestion de arreglos. Armado y procesamiento de expensas',
+    dateIn: '1/1/2011',
+    dateEnd: '1/3/23',
   },
   {
     id: '2',
     name: 'Somos Deporte',
-    puesto: 'Moviles para television con cobertura de futbol,hockey y rugby',
-    dateIn: 'Enero 2013',
-    dateEnd: 'Diciembre 2013',
+    puesto: 'Periodista',
+    description:
+      'Moviles para television con cobertura de Chacarita, Platense, Tigre, selecciones argentinas de basquet, rugby y hockey.',
+    dateIn: '15/1/13',
+    dateEnd: '20/12/13',
   },
   {
     id: '3',
-    name: 'LC Control de plagas',
+    name: 'LC Control',
     puesto: 'Empleado administrativo',
-    dateIn: 'Enero 2011',
-    dateEnd: 'Diciembre 2012',
+    description: 'Armado y gestion de cobranzas de la empresa.',
+    dateIn: '15/2/11',
+    dateEnd: '15/12/12',
   },
 ]
 
 export const proyects = [
   {
-    id: '1',
-    name: 'Fan Page Tampa Bay Buccaneers',
-    tech: 'HTML - CSS - JS - PHP',
-    linkHub: 'https://github.com/hartoy/Bucs',
-    link: '',
-  },
-  {
-    id: '2',
+    id: 1,
     name: 'MovieFlix',
     tech: 'REACT',
-    linkHub: 'https://github.com/hartoy/react-movieflix',
     link: 'https://hartoy-movieflix-llprznlf0-hartoy.vercel.app/',
+    image: imgMovieFlix,
   },
   {
-    id: '3',
-    name: 'SPACE',
-    tech: 'HTML - CSS - JS',
-    linkHub: 'https://github.com/hartoy/space-test',
-    link: 'https://cetia.com.ar/',
+    id: 2,
+    name: 'DOT',
+    tech: 'HTML - CSS - JS - HANDLEBARS',
+    link: 'https://dot-hotels.com/portal/es-es/p19/DOTHotels',
+    image: imgDot,
   },
   {
-    id: '4',
-    name: 'CountDown',
+    id: 3,
+    name: 'LESA',
+    tech: 'REACT',
+    link: 'https://lesa-prac-u7mu.vercel.app/',
+    image: imgLesa,
+  },
+  {
+    id: 4,
+    name: 'OSP',
+    tech: 'REACT',
+    link: 'https://osptest.vercel.app/',
+    image: imgOSP,
+  },
+  {
+    id: 5,
+    name: 'Todo',
     tech: 'HTML - CSS - JS',
-    linkHub: 'https://github.com/hartoy/countdown',
+    link: 'https://todo-list-hartoy.vercel.app/',
+    image: imgTodo,
+  },
+  {
+    id: 6,
+    name: 'TB Buccaneers',
+    tech: 'Laravel',
     link: 'https://cetia.com.ar/',
+    image: imgBasic,
   },
 ]
 
@@ -175,6 +193,6 @@ export const personalText = [
     obj: 'Mi objetivo es seguir creciendo profesionalmente, contribuyendo con mi experiencia y conocimientos en proyectos desafiantes y colaborando con equipos apasionados por la creación de soluciones innovadoras.',
     textLong:
       'Como programador frontend con más de un año de experiencia en proyectos reales, he desarrollado habilidades sólidas en el uso de React para la creación de interfaces de usuario eficientes y atractivas. Además, tengo experiencia en el manejo de Laravel y PHP en el backend.He utilizado herramientas de control de versiones como Git, así como metodologías ágiles y herramientas de gestión de proyectos como Trello o Jira para colaborar de manera efectiva en equipos de desarrollo. Estoy comprometido con la mejora continua y en mantenerme actualizado con las últimas tendencias y tecnologías en el campo del desarrollo web.',
-    textShort: '',
+    textShort: 'Bievenidos a mi sitio web. Aca van a encontrar todo lo que hago y se van a poder comunicar conmigo',
   },
 ]
