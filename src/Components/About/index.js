@@ -3,10 +3,11 @@ import { dataExp, outExp } from '../../data'
 
 const About = () => {
   return (
-    <div className="container flex flex-col  px-4 mx-auto md:px-8 lg:max-w-7xl mt-[80px] md:items-center text-white">
+    <div className="container flex flex-col  px-4 mx-auto md:px-8 lg:max-w-7xl mt-[80px] md:mt-[120px] md:items-center text-white">
       <h1 className="text-center md:text-[72px] text-[42px] uppercase">Experiencia</h1>
       <p className="text-center md:text-[22px]  text-justify mt-4 italic text-[#DBE2EF]">
-        Hace muchos años que trabajo y me formo para mejorar dia a dia. Tanto en el mundo IT como en otros rubros.
+        Hace muchos años que trabajo y me formo para mejorar día a día, tanto en el mundo de la tecnología de la
+        información como en otros rubros.
       </p>
       <div className="exp mt-4">
         <div className="exp-div flex flex-col md:flex-row md:grid md:grid-cols-2 md:gap-6">
