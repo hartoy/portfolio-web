@@ -12,7 +12,7 @@ const About = () => {
       <div className="exp mt-4">
         <div className="exp-div flex flex-col md:flex-row md:grid md:grid-cols-2 md:gap-6">
           {dataExp.map((data) => (
-            <div className="w-full bg-[#F9F7F7] hover:bg-[#DBE2EF] p-4 rounded my-4 md:my-3 text-[#3F72AF] hover:text-[#112D4E]">
+            <div className="w-full bg-[#F9F7F7] hover:bg-[#DBE2EF] p-4 rounded my-4 md:my-3 text-[#3F72AF] hover:text-[#112D4E] shadow hover:shadow-lg hover:shadow-white">
               <div className="name-date pb-2">
                 <div className="flex justify-between items-center">
                   <h2 className="text-[28px]"> {data.name} </h2>
@@ -27,7 +27,7 @@ const About = () => {
             </div>
           ))}
           {outExp.map((data) => (
-            <div className="w-full bg-[#F9F7F7] hover:bg-[#DBE2EF] p-4 rounded my-4 md:my-3 text-[#3F72AF] hover:text-[#112D4E]">
+            <div className="w-full bg-[#F9F7F7] hover:bg-[#DBE2EF] p-4 rounded my-4 md:my-3 text-[#3F72AF] hover:text-[#112D4E] shadow hover:shadow-lg hover:shadow-white">
               <div className="name-date pb-2">
                 <div className="flex justify-between items-center">
                   <h2 className="text-[20px]"> {data.name} </h2>

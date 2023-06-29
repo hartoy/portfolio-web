@@ -63,7 +63,7 @@ const Contact = () => {
           ref={form}
           onSubmit={sendEmail}
           className={`flex-1 border rounded flex flex-col gap-y-6 pb-16 p-6 items-start hover:bg-[#3F72AF] ${
-            send ? 'bg-green-700' : ''
+            send ? 'bg-green-700 hover:bg-green-700' : ''
           }`}
         >
           <input
