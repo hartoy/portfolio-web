@@ -15,7 +15,7 @@ export const dataExp = [
     dateIn: '1/3/22',
     dateEnd: '15/4/23',
     description:
-      'Maquetado web desde Figma, Photoshop o Illustrator. Markup bugfixing de web apps. Colaboración con equipos de desarrollo backend en la integración de API’s.Exploración tecnologías frontend como ReactJs.',
+      'Maquetado web desde Figma, Photoshop o Illustrator. Markup bugfixing de web apps. Colaboración con equipos de desarrollo backend en la integración de API’s. Exploración tecnologías frontend como ReactJs.',
     link: 'https://www.linkedin.com/company/genosha/',
   },
   {

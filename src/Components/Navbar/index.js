@@ -8,7 +8,6 @@ import GbFlag from '../img/gb-flag.png'
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false)
   const [menuVisible, setMenuVisible] = useState(false)
-  const [darkTheme, seDarkTheme] = useState(false)
   const [isEnglish, setIsEnglish] = useState(false)
 
   const handleNavbarToggle = () => {
@@ -24,6 +23,12 @@ const Navbar = () => {
       console.log('menu sube')
     }
   }
+
+  // function scrollToComponent(componentId) {
+  //   console.log('Lopito')
+  //   const component = document.getElementById(componentId)
+  //   component.scrollIntoView({ behavior: 'smooth' })
+  // }
 
   return (
     <nav className="w-full text-white bg-[#3F72AF]  fixed z-50">
@@ -70,16 +75,20 @@ const Navbar = () => {
             <div className="divdeul flex flex-col md:flex-row justify-start h-[70%]">
               <ul className="flex h-full  justify-between text-[30px] md:text-[20px] flex-col md:flex-row items-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                 <li className="text-white hover:text-[#112D4E]">
-                  <a href="">Home</a>
+                  <a href="#home">Home</a>
                 </li>
                 <li className="text-white hover:text-[#112D4E]">
-                  <a href="">Blog</a>
+                  <a href="#proyectos">Proyectos</a>
                 </li>
                 <li className="text-white hover:text-[#112D4E]">
-                  <a href="">About </a>
+                  <a href="#exp">Experiencia </a>
                 </li>
                 <li className="text-white hover:text-[#112D4E]">
-                  <a href="">Contact </a>
+                  <a href="#hobbies">Hobbies</a>
+                </li>
+
+                <li className="text-white hover:text-[#112D4E]">
+                  <a href="#contact">Contact</a>
                 </li>
               </ul>
             </div>

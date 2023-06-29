@@ -16,7 +16,10 @@ import { Carousel } from 'react-responsive-carousel'
 
 const Home = () => {
   return (
-    <div className="container flex flex-col md:flex-row px-4 mx-auto md:px-8 lg:max-w-7xl mt-[90px] md:mt-[140px] md:mb-[140px] md:items-center">
+    <div
+      id="home"
+      className="container flex flex-col md:flex-row px-4 mx-auto md:px-8 lg:max-w-7xl mt-[90px] md:mt-[140px] md:mb-[140px] md:items-center"
+    >
       <div className="carrusel flex flex-col justify-center items-center mb-8 md:order-last md:w-[50%]">
         <Carousel
           showThumbs={false}

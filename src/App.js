@@ -7,6 +7,7 @@ import About from './Components/About'
 import Contact from './Components/Contact'
 import Hobbies from './Components/Hobbies'
 import Footer from './Components/Footer'
+// import Test from './Components/Test'
 import 'tailwindcss/tailwind.css'
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Hobbies />
       <Contact />
       <Footer />
+      {/* <Test /> */}
     </div>
   )
 }

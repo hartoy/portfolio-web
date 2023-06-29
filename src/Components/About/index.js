@@ -3,7 +3,10 @@ import { dataExp, outExp } from '../../data'
 
 const About = () => {
   return (
-    <div className="container flex flex-col  px-4 mx-auto md:px-8 lg:max-w-7xl mt-[80px] md:mt-[120px] md:items-center text-white">
+    <div
+      id="exp"
+      className="container flex flex-col  px-4 mx-auto md:px-8 lg:max-w-7xl mt-[80px] md:mt-[120px] md:items-center text-white"
+    >
       <h1 className="text-center md:text-[72px] text-[42px] uppercase">Experiencia</h1>
       <p className="text-center md:text-[22px]  text-justify mt-4 italic text-[#DBE2EF]">
         Hace muchos años que trabajo y me formo para mejorar día a día, tanto en el mundo de la tecnología de la
@@ -12,7 +15,10 @@ const About = () => {
       <div className="exp mt-4">
         <div className="exp-div flex flex-col md:flex-row md:grid md:grid-cols-2 md:gap-6">
           {dataExp.map((data) => (
-            <div className="w-full bg-[#F9F7F7] hover:bg-[#DBE2EF] p-4 rounded my-4 md:my-3 text-[#3F72AF] hover:text-[#112D4E] shadow hover:shadow-lg hover:shadow-white">
+            <div
+              key={data.id}
+              className="w-full bg-[#F9F7F7] hover:bg-[#DBE2EF] p-4 rounded my-4 md:my-3 text-[#3F72AF] hover:text-[#112D4E] shadow hover:shadow-lg hover:shadow-white"
+            >
               <div className="name-date pb-2">
                 <div className="flex justify-between items-center">
                   <h2 className="text-[28px]"> {data.name} </h2>
@@ -27,7 +33,10 @@ const About = () => {
             </div>
           ))}
           {outExp.map((data) => (
-            <div className="w-full bg-[#F9F7F7] hover:bg-[#DBE2EF] p-4 rounded my-4 md:my-3 text-[#3F72AF] hover:text-[#112D4E] shadow hover:shadow-lg hover:shadow-white">
+            <div
+              key={data.id}
+              className="w-full bg-[#F9F7F7] hover:bg-[#DBE2EF] p-4 rounded my-4 md:my-3 text-[#3F72AF] hover:text-[#112D4E] shadow hover:shadow-lg hover:shadow-white"
+            >
               <div className="name-date pb-2">
                 <div className="flex justify-between items-center">
                   <h2 className="text-[20px]"> {data.name} </h2>

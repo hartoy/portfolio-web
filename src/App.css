@@ -1,8 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .lopo {
 background-color: #112D4E;
 overflow-y: scroll;
 }
-
 
 
 

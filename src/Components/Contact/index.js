@@ -46,7 +46,7 @@ const Contact = () => {
 
   return (
     <div className="container flex flex-col  px-4 mx-auto md:px-8 lg:max-w-7xl mt-[80px] md:items-center text-white">
-      <div className="flex flex-col md:flex-row w-full">
+      <div id="contact" className="flex flex-col md:flex-row w-full">
         <motion.div
           variants={fadeIn('right', 0.5)}
           initial="hidden"
