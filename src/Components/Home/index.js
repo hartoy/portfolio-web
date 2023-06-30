@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import insta from '../img/ig-logo.jpg'
 import gitHub from '../img/github-logo.svg'
 import linkedin from '../img/linkedin-logo.svg'
@@ -54,7 +54,7 @@ const Home = () => {
 
       <div className="info ">
         <div className="text md:w-[70%]  ">
-          <p className="text-white md:text-[72px] text-[40px] flex justify-center md:justify-start ms-0 md:ms-[-5px] mb-[-3] md:mb-0  h-[55px] md:h-[85px]">
+          <p className="text-white lg:text-[72px] md:text-[42px] text-[40px] flex justify-center md:justify-start ms-0 md:ms-[-5px] mb-[-3] md:mb-0  h-[55px] lg:h-[85px]">
             NACHO HARDOY
           </p>
         </div>
@@ -63,7 +63,7 @@ const Home = () => {
             sequence={['Programador Frontend', 2000, 'Periodista Deportivo', 2000, 'Deportista', 2000, 'Gamer', 2000]}
             speed={50}
             wrapper="span"
-            className="text-[#DBE2EF] text-[25px] md:text-[37px] flex justify-center md:justify-start mt-[-3]"
+            className="text-[#DBE2EF] text-[25px]  lg:text-[37px] flex justify-center md:justify-start mt-[-3]"
             repeat={Infinity}
           />
         </div>

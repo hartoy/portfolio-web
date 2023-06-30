@@ -24,12 +24,6 @@ const Navbar = () => {
     }
   }
 
-  // function scrollToComponent(componentId) {
-  //   console.log('Lopito')
-  //   const component = document.getElementById(componentId)
-  //   component.scrollIntoView({ behavior: 'smooth' })
-  // }
-
   return (
     <nav className="w-full text-white bg-[#3F72AF]  fixed z-50">
       <div className="px-4 mx-auto md:items-center md:flex md:justify-between md:px-8 lg:max-w-7xl md:h-[85px] ">
