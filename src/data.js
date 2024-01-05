@@ -3,13 +3,38 @@ import imgLesa from './Components/img/proyect-img-lesa.jpg'
 import imgTodo from './Components/img/proyect-img-todo.jpg'
 import imgMovieFlix from './Components/img/proyect-img-movieflix.jpg'
 import imgOSP from './Components/img/proyect-img-sylabus.jpg'
-import imgBasic from './Components/img/portfolio-img1.png'
+import imgGrizzly from './Components/img/proyect-img-grizzly.jpg'
+import imgAhorro from './Components/img/proyect-img-ahorro.jpg'
 
-export const dataSkills = ['HTML', 'CSS', 'JSX', 'REACT', 'LARAVEL', 'PHP', 'GIT', 'JAVASCRIPT', 'SCRUM', 'MYSQL - ']
+export const dataSkills = [
+  'HTML',
+  'CSS',
+  'JSX',
+  'REACT',
+  'LARAVEL',
+  'PHP',
+  'GIT',
+  'JAVASCRIPT',
+  'SCRUM',
+  'MYSQL',
+  'WORDPRESS',
+  'SHOPINCLOUD',
+  'SHOPIFY -',
+]
 
 export const dataExp = [
   {
     id: '1',
+    name: 'Grizzly Tax Advisors',
+    puesto: 'Desarrollador Web',
+    dateIn: '1/6/23',
+    dateEnd: 'Actualidad',
+    description:
+      'Desarrollo y mantenimiento depáginas web utilizando HTML, CSS y JavaScript en plataformas como ShopinCloud, WordPress y Shopify. Colaboración activa con el área de diseño y CEO para garantizar la coherencia visual y funcional de las páginas web. Gestión directa de la comunicación con los clientes a lo largo de los proyectos, garantizando una comprensión precisa de sus requerimientos y expectativas ',
+    link: 'https://www.linkedin.com/company/grizzlytax-advisor/',
+  },
+  {
+    id: '2',
     name: 'Genosha',
     puesto: 'Desarrollador Web',
     dateIn: '1/3/22',
@@ -19,7 +44,7 @@ export const dataExp = [
     link: 'https://www.linkedin.com/company/genosha/',
   },
   {
-    id: '2',
+    id: '3',
     name: 'Somos Mas',
     puesto: 'Desarrollador de Frontend',
     dateIn: '1/10/21',
@@ -29,7 +54,7 @@ export const dataExp = [
     link: 'https://github.com/alkemyTech/OT104-Client',
   },
   {
-    id: '3',
+    id: '4',
     name: 'Cuerdas',
     puesto: 'Desarrollador Full Stack',
     dateIn: '1/6/19',
@@ -39,7 +64,7 @@ export const dataExp = [
     link: 'https://github.com/simonyagas/proyectoDH-Sprint05',
   },
   {
-    id: '4',
+    id: '5',
     name: 'Arq Nilsson',
     puesto: 'Desarrollador Frontend',
     dateIn: '1/9/20',
@@ -49,7 +74,7 @@ export const dataExp = [
     link: 'https://github.com/hartoy/Arq-Leon-Nilsson',
   },
   {
-    id: '5',
+    id: '6',
     name: 'Sysmic',
     puesto: 'Desarrollador Frontend',
     dateIn: '1/8/20',
@@ -106,31 +131,38 @@ export const proyects = [
   },
   {
     id: 3,
+    name: 'Grizzly',
+    tech: 'Shopincloud',
+    link: 'https://grizzlytaxadvisors.com/es',
+    image: imgGrizzly,
+  },
+  {
+    id: 4,
+    name: 'Ahorro Direct',
+    tech: 'Wordpress',
+    link: 'https://ahorrodirect.com/',
+    image: imgAhorro,
+  },
+  {
+    id: 5,
     name: 'LESA',
     tech: 'REACT',
     link: 'https://lesa-prac-u7mu.vercel.app/',
     image: imgLesa,
   },
   {
-    id: 4,
+    id: 6,
     name: 'OSP',
     tech: 'REACT',
     link: 'https://osptest.vercel.app/',
     image: imgOSP,
   },
   {
-    id: 5,
+    id: 7,
     name: 'Todo',
     tech: 'HTML - CSS - JS',
     link: 'https://todo-list-hartoy.vercel.app/',
     image: imgTodo,
-  },
-  {
-    id: 6,
-    name: 'TB Buccaneers',
-    tech: 'Laravel',
-    link: 'https://cetia.com.ar/',
-    image: imgBasic,
   },
 ]
 

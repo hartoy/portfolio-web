@@ -1,19 +1,3 @@
-// import React, { useState } from 'react'
-// import './marquee.css'
-// import { dataSkills } from '../../data'
-
-// const ScrollingText = () => {
-//   const [skillsText, setSkillsText] = useState(dataSkills.join('  -  ') + '  -  ' + dataSkills.join('  -  '))
-
-//   return (
-//     <div className="marquee bg-[#9CE02E] h-[55px] md:h-[65px] mt-[55px] flex items-center custom-shadow md:text-[30px]">
-//       <span className="w-full">{skillsText}</span>
-//     </div>
-//   )
-// }
-
-// export default ScrollingText
-
 import React, { useState } from 'react'
 import Marquee from 'react-fast-marquee'
 import { dataSkills } from '../../data'
