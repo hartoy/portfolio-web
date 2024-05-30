@@ -5,36 +5,48 @@ import imgMovieFlix from './Components/img/proyect-img-movieflix.jpg'
 import imgOSP from './Components/img/proyect-img-sylabus.jpg'
 import imgGrizzly from './Components/img/proyect-img-grizzly.jpg'
 import imgAhorro from './Components/img/proyect-img-ahorro.jpg'
+import imgCoral from './Components/img/proyect-img-coral.jpg'
 
 export const dataSkills = [
   'HTML',
   'CSS',
   'JSX',
   'REACT',
+  'NEXT',
   'LARAVEL',
   'PHP',
   'GIT',
   'JAVASCRIPT',
   'SCRUM',
   'MYSQL',
-  'WORDPRESS',
   'SHOPINCLOUD',
+  'WORDPRESS',
   'SHOPIFY -',
 ]
 
 export const dataExp = [
   {
     id: '1',
+    name: 'OGreat Comunicación ',
+    puesto: 'Desarrollador Web',
+    dateIn: '2/2/24',
+    dateEnd: 'Actualidad',
+    description:
+      'Desarrollo y mantenimiento de páginas web y e-commerce, empleando herramientas como WordPress, Shopify y HTML, CSS y JavaScript. Especializado en diseño y desarrollo de sitios empresariales, gestión de bases de datos y migración de plataformas como Wix. Colaboro estrechamente con diseñadores y CEO para garantizar la coherencia visual y funcional. Gestiono la comunicación con los clientes, asegurando una comprensión precisa de sus necesidades y expectativas.',
+    link: 'https://ogreatmd.com/',
+  },
+  {
+    id: '2',
     name: 'Grizzly Tax Advisors',
     puesto: 'Desarrollador Web',
     dateIn: '1/6/23',
-    dateEnd: 'Actualidad',
+    dateEnd: '15/2/24',
     description:
       'Desarrollo y mantenimiento depáginas web utilizando HTML, CSS y JavaScript en plataformas como ShopinCloud, WordPress y Shopify. Colaboración activa con el área de diseño y CEO para garantizar la coherencia visual y funcional de las páginas web. Gestión directa de la comunicación con los clientes a lo largo de los proyectos, garantizando una comprensión precisa de sus requerimientos y expectativas ',
     link: 'https://www.linkedin.com/company/grizzlytax-advisor/',
   },
   {
-    id: '2',
+    id: '3',
     name: 'Genosha',
     puesto: 'Desarrollador Web',
     dateIn: '1/3/22',
@@ -44,7 +56,7 @@ export const dataExp = [
     link: 'https://www.linkedin.com/company/genosha/',
   },
   {
-    id: '3',
+    id: '4',
     name: 'Somos Mas',
     puesto: 'Desarrollador de Frontend',
     dateIn: '1/10/21',
@@ -54,7 +66,7 @@ export const dataExp = [
     link: 'https://github.com/alkemyTech/OT104-Client',
   },
   {
-    id: '4',
+    id: '5',
     name: 'Cuerdas',
     puesto: 'Desarrollador Full Stack',
     dateIn: '1/6/19',
@@ -64,7 +76,7 @@ export const dataExp = [
     link: 'https://github.com/simonyagas/proyectoDH-Sprint05',
   },
   {
-    id: '5',
+    id: '6',
     name: 'Arq Nilsson',
     puesto: 'Desarrollador Frontend',
     dateIn: '1/9/20',
@@ -74,7 +86,7 @@ export const dataExp = [
     link: 'https://github.com/hartoy/Arq-Leon-Nilsson',
   },
   {
-    id: '6',
+    id: '7',
     name: 'Sysmic',
     puesto: 'Desarrollador Frontend',
     dateIn: '1/8/20',
@@ -117,48 +129,55 @@ export const outExp = [
 export const proyects = [
   {
     id: 1,
+    name: 'Coral Bim Solutions',
+    tech: 'WORDPRESS',
+    link: 'https://coralbimsolutions.com/',
+    image: imgCoral,
+  },
+  {
+    id: 3,
     name: 'MovieFlix',
     tech: 'REACT',
     link: 'https://hartoy-movieflix-llprznlf0-hartoy.vercel.app/',
     image: imgMovieFlix,
   },
   {
-    id: 2,
+    id: 4,
     name: 'DOT',
     tech: 'HTML - CSS - JS - HANDLEBARS',
     link: 'https://dot-hotels.com/portal/es-es/p19/DOTHotels',
     image: imgDot,
   },
   {
-    id: 3,
+    id: 5,
     name: 'Grizzly',
     tech: 'Shopincloud',
     link: 'https://grizzlytaxadvisors.com/es',
     image: imgGrizzly,
   },
   {
-    id: 4,
+    id: 6,
     name: 'Ahorro Direct',
     tech: 'Wordpress',
     link: 'https://ahorrodirect.com/',
     image: imgAhorro,
   },
   {
-    id: 5,
+    id: 7,
     name: 'LESA',
     tech: 'REACT',
     link: 'https://lesa-prac-u7mu.vercel.app/',
     image: imgLesa,
   },
   {
-    id: 6,
+    id: 8,
     name: 'OSP',
     tech: 'REACT',
     link: 'https://osptest.vercel.app/',
     image: imgOSP,
   },
   {
-    id: 7,
+    id: 9,
     name: 'Todo',
     tech: 'HTML - CSS - JS',
     link: 'https://todo-list-hartoy.vercel.app/',
