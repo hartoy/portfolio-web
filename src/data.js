@@ -149,13 +149,6 @@ export const proyects = [
     image: imgDot,
   },
   {
-    id: 5,
-    name: 'Grizzly',
-    tech: 'Shopincloud',
-    link: 'https://grizzlytaxadvisors.com/es',
-    image: imgGrizzly,
-  },
-  {
     id: 6,
     name: 'Ahorro Direct',
     tech: 'Wordpress',
