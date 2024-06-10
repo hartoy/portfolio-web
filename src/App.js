@@ -5,9 +5,10 @@ import Marquee from './Components/Marquee'
 import Works from './Components/Works'
 import About from './Components/About'
 import Contact from './Components/Contact'
-import Hobbies from './Components/Hobbies'
 import Footer from './Components/Footer'
 import 'tailwindcss/tailwind.css'
+import HobbiesPage from './Components/HobbiesPage'
+import { hobbiesData } from '../src/data'
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       <Marquee />
       <Works />
       <About />
-      <Hobbies />
+      <HobbiesPage data={hobbiesData} />
       <Contact />
       <Footer />
     </div>

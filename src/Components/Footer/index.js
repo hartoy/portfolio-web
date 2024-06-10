@@ -1,6 +1,6 @@
 import React from 'react'
-import fish from '../img/fish-62.gif'
-import raya from '../img/raya.gif'
+import fish from '../../img/fish-62.gif'
+import raya from '../../img/raya.gif'
 import './footer.css'
 
 const Footer = () => {

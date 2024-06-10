@@ -1,9 +1,9 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { fadeIn } from '../../variants'
-import gitHub from '../img/github-logo.svg'
+import gitHub from '../../img/github-logo.svg'
 
-import { personalText, socialsLinks, proyects } from '../../data'
+import { socialsLinks, proyects } from '../../data'
 
 const Works = () => {
   return (

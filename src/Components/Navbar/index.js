@@ -1,9 +1,9 @@
 import React from 'react'
 import './navbar.css'
 import { useState } from 'react'
-import navMenu from '../img/navbar-menu.svg'
-import EsFlag from '../img/esp-flag.png'
-import GbFlag from '../img/gb-flag.png'
+import navMenu from '../../img/navbar-menu.svg'
+import EsFlag from '../../img/esp-flag.png'
+import GbFlag from '../../img/gb-flag.png'
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false)

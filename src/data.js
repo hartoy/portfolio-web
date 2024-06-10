@@ -1,11 +1,26 @@
-import imgDot from './Components/img/proyect-img-dot.jpg'
-import imgLesa from './Components/img/proyect-img-lesa.jpg'
-import imgTodo from './Components/img/proyect-img-todo.jpg'
-import imgMovieFlix from './Components/img/proyect-img-movieflix.jpg'
-import imgOSP from './Components/img/proyect-img-sylabus.jpg'
-import imgGrizzly from './Components/img/proyect-img-grizzly.jpg'
-import imgAhorro from './Components/img/proyect-img-ahorro.jpg'
-import imgCoral from './Components/img/proyect-img-coral.jpg'
+import imgDot from '../src/img/proyect-img-dot.jpg'
+import imgLesa from '../src/img/proyect-img-lesa.jpg'
+import imgTodo from '../src/img/proyect-img-todo.jpg'
+import imgMovieFlix from '../src/img/proyect-img-movieflix.jpg'
+import imgOSP from '../src/img/proyect-img-sylabus.jpg'
+import imgAhorro from '../src/img/proyect-img-ahorro.jpg'
+import imgCoral from '../src/img/proyect-img-coral.jpg'
+import ImgMJ from '../src/img/hobbies-mj.png'
+import ImgMiley from '../src/img/hobbies-miley.jpg'
+import ImgEspacio from '../src/img/hobbies-espacio.jpg'
+import ImgSocc from '../src/img/hobbies-soccer.jpg'
+import ImgNfl from '../src/img/hobbies-nfl.jpg'
+import ImgNba from '../src/img/hobbies-nba.jpg'
+import ImgBox from '../src/img/hobbies-boxing.jpg'
+import ImgTB from '../src/img/hobbies-tampa.jpg'
+import ImgAfa from '../src/img/hobbies-afa.jpg'
+import ImgRiver from '../src/img/hobbies-river.jpg'
+import ImgLA from '../src/img/hobbies-lakers.jpg'
+import ImgValo from '../src/img/hobbies-valo.jpg'
+import ImgF23 from '../src/img/hobbies-fifa23.jpg'
+import ImgBtf from '../src/img/hobbies-btf.jpg'
+import ImgLol from '../src/img/hobbies-lol.jpg'
+import ImgTheWeeknd from '../src/img/hobbie-theweeknd.jpg'
 
 export const dataSkills = [
   'HTML',
@@ -240,3 +255,128 @@ export const personalText = [
     textShort: 'Bievenidos a mi sitio web. Aca van a encontrar todo lo que hago y se van a poder comunicar conmigo',
   },
 ]
+
+export const hobbiesData = [
+  {
+    title: 'Equipos favoritos',
+    subtitle: '"Si nunca pierdes, no disfrutarás la felicidad de la victoria"',
+    images: [
+      {
+        src: ImgAfa,
+        alt: 'Afa Image',
+        tooltipId: 'afa',
+        tooltipContent: 'Seleccion Argentina',
+      },
+      {
+        src: ImgRiver,
+        alt: 'River Image',
+        tooltipId: 'carp',
+        tooltipContent: 'River Plate',
+      },
+      {
+        src: ImgTB,
+        alt: 'TB Image',
+        tooltipId: 'tampa',
+        tooltipContent: 'Buccaneers',
+      },
+      {
+        src: ImgLA,
+        alt: 'LA Image',
+        tooltipId: 'lakers',
+        tooltipContent: 'Lakers',
+      },
+    ],
+  },
+  {
+    title: 'Deportes favoritos',
+    subtitle: '"Puedes ser lo que quieras ser, siempre que lo intentes el tiempo suficiente."',
+    images: [
+      {
+        src: ImgSocc,
+        alt: 'Soccer Image',
+        tooltipId: 'futbol',
+        tooltipContent: 'Futbol',
+      },
+      {
+        src: ImgNfl,
+        alt: 'NFL Image',
+        tooltipId: 'nfl',
+        tooltipContent: 'NFL',
+      },
+      {
+        src: ImgNba,
+        alt: 'NBA Image',
+        tooltipId: 'nba',
+        tooltipContent: 'NBA',
+      },
+      {
+        src: ImgBox,
+        alt: 'Box Image',
+        tooltipId: 'boxing',
+        tooltipContent: 'Boxing',
+      },
+    ],
+  },
+  {
+    title: 'Artistas favoritos',
+    subtitle: '"Si no fuera por la música, habría más razones para volverse loco"',
+    images: [
+      {
+        src: ImgTheWeeknd,
+        alt: 'The Weeknd Image',
+        tooltipId: 'tw',
+        tooltipContent: 'The Weeknd',
+      },
+      {
+        src: ImgMJ,
+        alt: 'Michael Jackson Image',
+        tooltipId: 'mj',
+        tooltipContent: 'Michael Jackson',
+      },
+      {
+        src: ImgMiley,
+        alt: 'Miley Cyrus Image',
+        tooltipId: 'miley',
+        tooltipContent: 'Miley Cyrus',
+      },
+      {
+        src: ImgEspacio,
+        alt: 'Los Del Espacio Image',
+        tooltipId: 'space',
+        tooltipContent: 'Los Del Espacio',
+      },
+    ],
+  },
+  {
+    title: 'Juegos favoritos',
+    subtitle: '"Si estás perdiendo tu tiempo libre puede que estés perdiendo tu alma”',
+    images: [
+      {
+        src: ImgValo,
+        alt: 'Valorant Image',
+        tooltipId: 'valo',
+        tooltipContent: 'Valorant',
+      },
+      {
+        src: ImgF23,
+        alt: 'FIFA 23 Image',
+        tooltipId: 'fifa23',
+        tooltipContent: 'FIFA',
+      },
+      {
+        src: ImgBtf,
+        alt: 'Battlefield Image',
+        tooltipId: 'btf',
+        tooltipContent: 'Battlefield',
+      },
+      {
+        src: ImgLol,
+        alt: 'League of Legends Image',
+        tooltipId: 'lol',
+        tooltipContent: 'League of Legends',
+      },
+    ],
+  },
+]
+
+export default hobbiesData
