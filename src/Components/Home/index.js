@@ -7,6 +7,7 @@ import carHtml from '../../img/carrusel-html.png'
 import carCss from '../../img/carrusel-css.png'
 import carJs from '../../img/carrusel-js.png'
 import carReact from '../../img/carrusel-react.png'
+import carNext from '../../img/carrusel-next.svg'
 import '../Home/style.css'
 import { TypeAnimation } from 'react-type-animation'
 import { motion } from 'framer-motion'
@@ -49,6 +50,10 @@ const Home = () => {
           <div className="w-1/2 mx-auto md:w-full rounded-full border-[7px] border-[#DBE2EF] flex items-center justify-center">
             <img className="rounded-full p-[7px] md:p-[10px]" src={carReact} alt="Imagen 5" />
           </div>
+
+          <div className="w-1/2 mx-auto md:w-full rounded-full border-[7px] border-[#DBE2EF] flex items-center justify-center">
+            <img className="rounded-full p-[7px] md:p-[10px]" src={carNext} alt="Imagen 5" />
+          </div>
         </Carousel>
       </div>
 
@@ -63,13 +68,13 @@ const Home = () => {
             sequence={['Programador Frontend', 2000, 'Periodista Deportivo', 2000, 'Deportista', 2000, 'Gamer', 2000]}
             speed={50}
             wrapper="span"
-            className="text-[#DBE2EF] text-[25px]  lg:text-[37px] flex justify-center md:justify-start mt-[-3]"
+            className="text-[#3F72AF] text-[25px]  lg:text-[37px] flex justify-center md:justify-start mt-[-3]"
             repeat={Infinity}
           />
         </div>
 
-        <div className="text md:text-[22px] md:w-[70%] text-justify mt-6 md:mt-4">
-          <p className="text-[#DBE2EF]">{personalText[0].obj}</p>
+        <div className="text md:text-[22px] md:w-[70%] mt-6 md:mt-4">
+          <p className="text-[#DBE2EF] workText md:text-[22px]  text-justify">{personalText[0].obj}</p>
         </div>
         <div className="socials flex items-center justify-around md:w-[70%] md:justify-around mt-[30px] mb-0 md:mb-[50px]">
           <ul className="flex">
