@@ -96,7 +96,6 @@ const Navbar = () => {
             <div className="gadgets flex justify-around md:justify-end md:items-end">
               <div className="idioms flex justify-center content-end md:me-[5px] mt-[80px] md:mt-0 relative">
                 <button onClick={() => changeLanguage('es')}>
-                  {console.log('selectedLanguage', selectedLanguage)}
                   <img
                     className={`  me-2 ${selectedLanguage === 'es' ? 'w-[45px] md:w-[38px]' : 'w-[30px] md:w-[25px]'}`}
                     src={EsFlag}

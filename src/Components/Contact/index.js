@@ -19,12 +19,10 @@ const Contact = () => {
     const message = form.current.message.value.trim()
 
     if (!userName || !userEmail || !message) {
-      console.log('vacio')
       setError(true)
     } else {
       emailjs.sendForm('service_i9z61af', 'template_qnndevh', form.current, '57W2XArxrL4Qxw8s2').then(
         (result) => {
-          console.log(result.text)
           setSend(true)
           setError(false)
           form.current.reset()
