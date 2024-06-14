@@ -13,7 +13,6 @@ const Hobbies = ({ title, subtitle, imagesKey }) => {
       <span className="hobbie-title uppercase text-[32px]">{t(title)}</span>
       <span className="hobbie-subtitle italic">{subtitle}</span>
       <div className="imgs flex flex-row justify-evenly mt-3 mb-7">
-        {console.log(images)}
         {images.map((image, index) => {
           return (
             <img

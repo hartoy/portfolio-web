@@ -17,12 +17,10 @@ const Navbar = () => {
     setMenuVisible(true)
 
     if (navbar) {
-      console.log('menu baja')
       setTimeout(() => {
         setMenuVisible(false)
       }, 500)
     } else {
-      console.log('menu sube')
     }
   }
 

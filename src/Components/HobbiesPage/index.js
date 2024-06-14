@@ -16,7 +16,6 @@ const HobbiesPage = () => {
       <div className="flex flex-col md:flex-row mt-[40px] text-center">
         <div className="flex flex-col">
           <div className="hobbies grid md:grid-cols-2 gap-2 hover:p-0">
-            {console.log(hobbiesData)}
             {hobbiesData.map((hobbie, index) => (
               <Hobbies key={index} {...hobbie} />
             ))}
