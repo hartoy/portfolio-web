@@ -1,0 +1,195 @@
+{
+  "navbar": {
+    "home": "Home",
+    "projects": "Projects",
+    "experience": "Experience",
+    "hobbies": "Hobbies",
+    "contact": "Contact",
+    "news": "News"
+  },
+  "personalText": {
+    "obj": "My goal is to continue growing professionally, contributing my experience and knowledge to challenging projects, and collaborating with teams passionate about creating innovative solutions.",
+    "textLong": "As a frontend developer with more than a year of experience in real projects, I have developed solid skills in using React to create efficient and attractive user interfaces. Additionally, I have experience handling Laravel and PHP on the backend. I have used version control tools like Git, as well as agile methodologies and project management tools like Trello or Jira to effectively collaborate in development teams. I am committed to continuous improvement and staying updated with the latest trends and technologies in the field of web development.",
+    "textShort": "Welcome to my website. Here you will find everything I do and you will be able to get in touch with me."
+  },
+  "subtitles": {
+    "subNews": "In the world of web development, constant updates are essential to stay ahead. That’s why I am always looking for new technologies and challenges that allow me to grow and adapt to the demands of the sector. Innovation never stops, and neither do I!",
+    "subProjects": "Below you can see some of the projects I have worked on. Several of these were developed by me, but others were the result of excellent teamwork. I hope to add many more to this list!",
+    "subExperience": "For many years, I have been working and training to improve day by day, both in the world of information technology and in other fields.",
+    "subHobbies": "We all need hobbies to avoid stress, the daily routine, and a sedentary lifestyle. Here you can learn about the activities that motivate me every day, challenging me physically and mentally, and allowing me to develop my creativity by disconnecting from my obligations for a while."
+},
+  "dataExp": [
+    {
+      "id": "1",
+      "name": "OGreat Communication",
+      "position": "Web Developer",
+      "dateIn": "2/2/24",
+      "dateEnd": "Present",
+      "description": "Development and maintenance of websites and e-commerce, using tools like WordPress, Shopify, and HTML, CSS, and JavaScript. Specialized in the design and development of corporate sites, database management, and platform migration such as Wix. I work closely with designers and the CEO to ensure visual and functional coherence. I manage communication with clients, ensuring an accurate understanding of their needs and expectations.",
+      "link": "https://ogreatmd.com/"
+    },
+    {
+      "id": "2",
+      "name": "Grizzly Tax Advisors",
+      "position": "Web Developer",
+      "dateIn": "1/6/23",
+      "dateEnd": "15/2/24",
+      "description": "Development and maintenance of web pages using HTML, CSS, and JavaScript on platforms such as ShopinCloud, WordPress, and Shopify. Active collaboration with the design area and CEO to ensure the visual and functional coherence of web pages. Direct management of client communication throughout projects, ensuring an accurate understanding of their requirements and expectations.",
+      "link": "https://www.linkedin.com/company/grizzlytax-advisor/"
+    },
+    {
+      "id": "3",
+      "name": "Genosha",
+      "position": "Web Developer",
+      "dateIn": "1/3/22",
+      "dateEnd": "15/4/23",
+      "description": "Web layout from Figma, Photoshop, or Illustrator. Markup bug fixing of web apps. Collaboration with backend development teams in API integration. Exploration of frontend technologies such as ReactJs.",
+      "link": "https://www.linkedin.com/company/genosha/"
+    },
+    {
+      "id": "4",
+      "name": "Somos Mas",
+      "position": "Frontend Developer",
+      "dateIn": "1/10/21",
+      "dateEnd": "15/1/22",
+      "description": "Team development of the site for the NGO Somos Más using React JS, Jira, and GitHub, in a team of 7 people.",
+      "link": "https://github.com/alkemyTech/OT104-Client"
+    },
+    {
+      "id": "5",
+      "name": "Cuerdas",
+      "position": "Full Stack Developer",
+      "dateIn": "1/6/19",
+      "dateEnd": "20/12/19",
+      "description": "Development in Digital House of an e-commerce using HTML for structure, CSS for design, and JS for client-side interactions and/or validations. The design and development of the frontend follow best practices for responsive sites. MySQL was used for the database.",
+      "link": "https://github.com/simonyagas/proyectoDH-Sprint05"
+    },
+    {
+      "id": "6",
+      "name": "Arq Nilsson",
+      "position": "Frontend Developer",
+      "dateIn": "1/9/20",
+      "dateEnd": "1/12/20",
+      "description": "Development of a responsive website using HTML, CSS, and JS showcasing projects, works, and projections of architect León Nilsson.",
+      "link": "https://github.com/hartoy/Arq-Leon-Nilsson"
+    },
+    {
+      "id": "7",
+      "name": "Sysmic",
+      "position": "Frontend Developer",
+      "dateIn": "1/8/20",
+      "dateEnd": "1/9/20",
+      "description": "Development of a responsive website using HTML, CSS, and JS in Laravel for a company selling sound equipment.",
+      "link": "https://github.com/hartoy/sysmic"
+    }
+  ],
+  "outExp": [
+    {
+      "id": "1",
+      "name": "Adm C.Gonzalez",
+      "position": "Administrative Employee",
+      "description": "Phone assistance. Assembly of expenses. Planning and payment to suppliers. Management of repairs. Assembly and processing of expenses.",
+      "dateIn": "1/1/2011",
+      "dateEnd": "1/3/23"
+    },
+    {
+      "id": "2",
+      "name": "Somos Deporte",
+      "position": "Journalist",
+      "description": "TV coverage with reports on Chacarita, Platense, Tigre, Argentine national basketball, rugby, and hockey teams.",
+      "dateIn": "15/1/13",
+      "dateEnd": "20/12/13"
+    },
+    {
+      "id": "3",
+      "name": "LC Control",
+      "position": "Administrative Employee",
+      "description": "Assembly and management of company collections.",
+      "dateIn": "15/2/11",
+      "dateEnd": "15/12/12"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "name": "Coral Bim Solutions",
+      "tech": "WORDPRESS",
+      "link": "https://coralbimsolutions.com/",
+      "image": "imgCoral"
+    },
+    {
+      "id": "3",
+      "name": "MovieFlix",
+      "tech": "REACT",
+      "link": "https://hartoy-movieflix-llprznlf0-hartoy.vercel.app/",
+      "image": "imgMovieFlix"
+    },
+    {
+      "id": "4",
+      "name": "DOT",
+      "tech": "HTML - CSS - JS - HANDLEBARS",
+      "link": "https://dot-hotels.com/portal/es-es/p19/DOTHotels",
+      "image": "imgDot"
+    },
+    {
+      "id": "6",
+      "name": "Ahorro Direct",
+      "tech": "Wordpress",
+      "link": "https://ahorrodirect.com/",
+      "image": "imgAhorro"
+    },
+    {
+      "id": "7",
+      "name": "LESA",
+      "tech": "REACT",
+      "link": "https://lesa-prac-u7mu.vercel.app/",
+      "image": "imgLesa"
+    },
+    {
+      "id": "8",
+      "name": "OSP",
+      "tech": "REACT",
+      "link": "https://osptest.vercel.app/",
+      "image": "imgOSP"
+    },
+    {
+      "id": "9",
+      "name": "Todo",
+      "tech": "HTML - CSS - JS",
+      "link": "https://todo-list-hartoy.vercel.app/",
+      "image": "imgTodo"
+    }
+  ],
+  "hobbiesData": [
+    {
+      "title": "Favorite Teams",
+      "subtitle": "\"If you never lose, you won't enjoy the happiness of victory\"",
+      "imagesKey": "equiposFavoritos"
+    },
+    {
+      "title": "Favorite Sports",
+      "subtitle": "\"You can be whatever you want to be, as long as you try long enough.\"",
+      "imagesKey": "deportesFavoritos"
+    },
+    {
+      "title": "Favorite Artists",
+      "subtitle": "\"If it weren't for music, there would be more reasons to go crazy\"",
+      "imagesKey": "artistasFavoritos"
+    },
+    {
+      "title": "Favorite Games",
+      "subtitle": "\"If you are losing your free time, you may be losing your soul”",
+      "imagesKey": "juegosFavoritos"
+    }
+  ],
+  "contact": {
+    "sendMe": "Send me your message",
+    "workTogether": "Let's work together!",
+    "send": "Message sent",
+    "error": "All fields must be completed",
+    "name": "Name",
+    "message": "Write your message",
+    "button": "Send"
+
+}
+}

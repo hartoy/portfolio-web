@@ -4,18 +4,17 @@ import { fadeIn } from '../../variants'
 import gitHub from '../../img/github-logo.svg'
 
 import { socialsLinks, proyects } from '../../data'
+import { useTranslation } from 'react-i18next'
 
 const Works = () => {
+  const { t } = useTranslation()
+
   return (
     <div className="container flex flex-col  px-4 mx-auto md:px-8 lg:max-w-7xl mt-[80px] md:items-center text-white">
       <div id="proyectos" className="flex-1 flex flex-col gay-y-12 mb-10 lg:mb-0">
         <div className="workText md:text-[22px]  text-justify">
-          <h2 className="md:text-[72px] text-[42px] mb-4 text-center uppercase">Proyectos</h2>
-          <p className="mb-8 md:mb-12 italic text-[DBE2EF]">
-            A continuación podrás ver algunos de los proyectos en los que trabajé. Varios de estos fueron desarrollados
-            por mí, pero otros fueron fruto de un excelente trabajo en equipo. ¡Espero poder sumar muchos más a esta
-            lista!
-          </p>
+          <h2 className="md:text-[72px] text-[42px] mb-4 text-center uppercase">{t('navbar.projects')}</h2>
+          <p className="mb-8 md:mb-12 italic text-[DBE2EF]">{t('subtitles.subProjects')}</p>
         </div>
 
         <motion.div

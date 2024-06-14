@@ -9,7 +9,6 @@ import Footer from './Components/Footer'
 import 'tailwindcss/tailwind.css'
 import HobbiesPage from './Components/HobbiesPage'
 import News from './Components/News'
-import { hobbiesData } from '../src/data'
 
 function App() {
   return (
@@ -20,7 +19,7 @@ function App() {
       <News />
       <Works />
       <About />
-      <HobbiesPage data={hobbiesData} />
+      <HobbiesPage />
       <Contact />
       <Footer />
     </div>

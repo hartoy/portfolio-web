@@ -1,0 +1,196 @@
+
+
+{
+  "navbar": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "experience": "Experiencia",
+    "hobbies": "Hobbies",
+    "contact": "Contacto",
+    "news": "Novedades"
+  },
+  "subtitles": {
+    "subNews": "En el mundo del desarrollo web, la actualización constante es esencial para mantenerse a la vanguardia. Por eso, siempre estoy en busca de nuevas tecnologías y desafíos que me permitan crecer y adaptarme a las demandas del sector. ¡La innovación no se detiene y yo tampoco!",
+    "subProjects": "A continuación podrás ver algunos de los proyectos en los que trabajé. Varios de estos fueron desarrollados por mí, pero otros fueron fruto de un excelente trabajo en equipo. ¡Espero poder sumar muchos más a esta lista!",
+    "subExperience": "Hace muchos años que trabajo y me formo para mejorar día a día, tanto en el mundo de la tecnología de la información como en otros rubros.",
+    "subHobbies": "Todos necesitamos hobbies para evitar el estrés, la rutina diaria y el sedentarismo. Aquí podrás conocer las actividades que me motivan día a día, desafiándome física y mentalmente, y que me permiten desarrollar mi creatividad al desconectarme de mis obligaciones por un rato."
+  },
+  "personalText": {
+    "obj": "Mi objetivo es seguir creciendo profesionalmente, contribuyendo con mi experiencia y conocimientos en proyectos desafiantes, y colaborando con equipos apasionados por la creación de soluciones innovadoras.",
+    "textLong": "Como programador frontend con más de un año de experiencia en proyectos reales, he desarrollado habilidades sólidas en el uso de React para la creación de interfaces de usuario eficientes y atractivas. Además, tengo experiencia en el manejo de Laravel y PHP en el backend. He utilizado herramientas de control de versiones como Git, así como metodologías ágiles y herramientas de gestión de proyectos como Trello o Jira para colaborar de manera efectiva en equipos de desarrollo. Estoy comprometido con la mejora continua y en mantenerme actualizado con las últimas tendencias y tecnologías en el campo del desarrollo web.",
+    "textShort": "Bienvenidos a mi sitio web. Aquí van a encontrar todo lo que hago y se van a poder comunicar conmigo."
+  },
+  "dataExp": [
+    {
+      "id": "1",
+      "name": "OGreat Comunicación",
+      "position": "Desarrollador Web",
+      "dateIn": "2/2/24",
+      "dateEnd": "Actualidad",
+      "description": "Desarrollo y mantenimiento de páginas web y e-commerce, empleando herramientas como WordPress, Shopify y HTML, CSS y JavaScript. Especializado en diseño y desarrollo de sitios empresariales, gestión de bases de datos y migración de plataformas como Wix. Colaboro estrechamente con diseñadores y CEO para garantizar la coherencia visual y funcional. Gestiono la comunicación con los clientes, asegurando una comprensión precisa de sus necesidades y expectativas.",
+      "link": "https://ogreatmd.com/"
+    },
+    {
+      "id": "2",
+      "name": "Grizzly Tax Advisors",
+      "position": "Desarrollador Web",
+      "dateIn": "1/6/23",
+      "dateEnd": "15/2/24",
+      "description": "Desarrollo y mantenimiento de páginas web utilizando HTML, CSS y JavaScript en plataformas como ShopinCloud, WordPress y Shopify. Colaboración activa con el área de diseño y CEO para garantizar la coherencia visual y funcional de las páginas web. Gestión directa de la comunicación con los clientes a lo largo de los proyectos, garantizando una comprensión precisa de sus requerimientos y expectativas.",
+      "link": "https://www.linkedin.com/company/grizzlytax-advisor/"
+    },
+    {
+      "id": "3",
+      "name": "Genosha",
+      "position": "Desarrollador Web",
+      "dateIn": "1/3/22",
+      "dateEnd": "15/4/23",
+      "description": "Maquetado web desde Figma, Photoshop o Illustrator. Markup bugfixing de web apps. Colaboración con equipos de desarrollo backend en la integración de API’s. Exploración de tecnologías frontend como ReactJs.",
+      "link": "https://www.linkedin.com/company/genosha/"
+    },
+    {
+      "id": "4",
+      "name": "Somos Mas",
+      "position": "Desarrollador de Frontend",
+      "dateIn": "1/10/21",
+      "dateEnd": "15/1/22",
+      "description": "Desarrollo en equipo del sitio para la ONG Somos Más utilizando React JS, Jira y GitHub, en un equipo de 7 personas.",
+      "link": "https://github.com/alkemyTech/OT104-Client"
+    },
+    {
+      "id": "5",
+      "name": "Cuerdas",
+      "position": "Desarrollador Full Stack",
+      "dateIn": "1/6/19",
+      "dateEnd": "20/12/19",
+      "description": "Desarrollo en Digital House de una e-commerce utilizando HTML para la estructura, CSS para el diseño y JS para interacciones y/o validaciones del lado del cliente. El diseño y desarrollo del frontend siguen las buenas prácticas de sitios responsivos. Se utilizó MySQL para la base de datos.",
+      "link": "https://github.com/simonyagas/proyectoDH-Sprint05"
+    },
+    {
+      "id": "6",
+      "name": "Arq Nilsson",
+      "position": "Desarrollador Frontend",
+      "dateIn": "1/9/20",
+      "dateEnd": "1/12/20",
+      "description": "Desarrollo de sitio web responsive utilizando HTML, CSS y JS donde se muestran proyectos, obras y proyecciones del arquitecto León Nilsson.",
+      "link": "https://github.com/hartoy/Arq-Leon-Nilsson"
+    },
+    {
+      "id": "7",
+      "name": "Sysmic",
+      "position": "Desarrollador Frontend",
+      "dateIn": "1/8/20",
+      "dateEnd": "1/9/20",
+      "description": "Desarrollo de sitio web responsive utilizando HTML, CSS y JS en Laravel para compañía de venta de artículos de sonido.",
+      "link": "https://github.com/hartoy/sysmic"
+    }
+  ],
+  "outExp": [
+    {
+      "id": "1",
+      "name": "Adm C.Gonzalez",
+      "position": "Empleado administrativo",
+      "description": "Atención telefónica. Armado de expensas. Planificación y pago a proveedores. Gestión de arreglos. Armado y procesamiento de expensas.",
+      "dateIn": "1/1/2011",
+      "dateEnd": "1/3/23"
+    },
+    {
+      "id": "2",
+      "name": "Somos Deporte",
+      "position": "Periodista",
+      "description": "Móviles para televisión con cobertura de Chacarita, Platense, Tigre, selecciones argentinas de básquet, rugby y hockey.",
+      "dateIn": "15/1/13",
+      "dateEnd": "20/12/13"
+    },
+    {
+      "id": "3",
+      "name": "LC Control",
+      "position": "Empleado administrativo",
+      "description": "Armado y gestión de cobranzas de la empresa.",
+      "dateIn": "15/2/11",
+      "dateEnd": "15/12/12"
+    }
+  ],
+  "proyects": [
+    {
+      "id": "1",
+      "name": "Coral Bim Solutions",
+      "tech": "WORDPRESS",
+      "link": "https://coralbimsolutions.com/",
+      "image": "imgCoral"
+    },
+    {
+      "id": "3",
+      "name": "MovieFlix",
+      "tech": "REACT",
+      "link": "https://hartoy-movieflix-llprznlf0-hartoy.vercel.app/",
+      "image": "imgMovieFlix"
+    },
+    {
+      "id": "4",
+      "name": "DOT",
+      "tech": "HTML - CSS - JS - HANDLEBARS",
+      "link": "https://dot-hotels.com/portal/es-es/p19/DOTHotels",
+      "image": "imgDot"
+    },
+    {
+      "id": "6",
+      "name": "Ahorro Direct",
+      "tech": "Wordpress",
+      "link": "https://ahorrodirect.com/",
+      "image": "imgAhorro"
+    },
+    {
+      "id": "7",
+      "name": "LESA",
+      "tech": "REACT",
+      "link": "https://lesa-prac-u7mu.vercel.app/",
+      "image": "imgLesa"
+    },
+    {
+      "id": "8",
+      "name": "OSP",
+      "tech": "REACT",
+      "link": "https://osptest.vercel.app/",
+      "image": "imgOSP"
+    },
+    {
+      "id": "9",
+      "name": "Todo",
+      "tech": "HTML - CSS - JS",
+      "link": "https://todo-list-hartoy.vercel.app/",
+      "image": "imgTodo"
+    }
+  ],
+  "hobbiesData": [
+    {
+      "title": "Equipos favoritos",
+      "subtitle": "\"Si nunca pierdes, no disfrutarás la felicidad de la victoria\"",
+      "imagesKey": "equiposFavoritos"
+    },
+    {
+      "title": "Deportes favoritos",
+      "subtitle": "\"Puedes ser lo que quieras ser, siempre que lo intentes el tiempo suficiente.\"",
+      "imagesKey": "deportesFavoritos"
+    },
+    {
+      "title": "Artistas favoritos",
+      "subtitle": "\"Si no fuera por la música, habría más razones para volverse loco.\"",
+      "imagesKey": "artistasFavoritos"
+    },
+    {
+      "title": "Juegos favoritos",
+      "subtitle": "\"Si estás perdiendo tu tiempo libre puede que estés perdiendo tu alma”",
+      "imagesKey": "juegosFavoritos"
+    }
+  ],
+  "contact": {
+    "sendMe": "Mandame tu mensaje",
+    "workTogether": "Trabajemos juntos!",
+    "send": "Mensaje enviado",
+    "error": "Debe completar todos los campos",
+    "name": "Nombre",
+    "message": "Escribe tu mensaje",
+    "button": "Enviar"
+  }
+}

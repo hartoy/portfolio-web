@@ -3,11 +3,13 @@ import emailjs from '@emailjs/browser'
 import { motion } from 'framer-motion'
 import { fadeIn } from '../../variants'
 import { useEffect } from 'react'
+import { useTranslation } from 'react-i18next'
 
 const Contact = () => {
   const form = useRef()
   const [send, setSend] = useState(false)
   const [error, setError] = useState(false)
+  const { t } = useTranslation()
 
   const sendEmail = (e) => {
     e.preventDefault()
@@ -55,8 +57,8 @@ const Contact = () => {
           className="flex-1 flex justify-start md:justify-center items-center mb-5 md:mb-0"
         >
           <div>
-            <h1 className="md:text-[52px] text-[42px] uppercase text-center leading-none">Mandame tu mensaje</h1>
-            <h2 className=" md:text-[42px] text-[22px] text-center mt-3">Trabajemos juntos!</h2>
+            <h1 className="md:text-[52px] text-[42px] uppercase text-center leading-none">{t('contact.sendMe')}</h1>
+            <h2 className=" md:text-[42px] text-[22px] text-center mt-3">{t('contact.workTogether')}</h2>
           </div>
         </motion.div>
         <form
@@ -68,7 +70,7 @@ const Contact = () => {
         >
           <input
             className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:placeholder:text-sky-500 transition-all hover:border-[#112D4E]"
-            placeholder="Nombre"
+            placeholder={t('contact.name')}
             type="text"
             name="user_name"
           />
@@ -80,7 +82,7 @@ const Contact = () => {
           />
           <textarea
             className=" bg-transparent hover:border-[#112D4E] border-b py-12 outline-none w-full placeholder:text-white focus:placeholder:text-sky-500 resize-none mb-12"
-            placeholder="Escribe tu mensaje"
+            placeholder={t('contact.message')}
             type="email"
             name="message"
           ></textarea>
@@ -91,12 +93,12 @@ const Contact = () => {
               className="md:w-[150px] md:h-[40px] bg-[#DBE2EF] hover:bg-[#F9F7F7] focus:ring-4 focus:outline-none focus:[#3F72AF] dark:focus:[#3F72AF] shadow-lg shadow-[#3F72AF] dark:shadow-lg dark:shadow-[#3F72AF] font-medium rounded-lg text-sm px-5 py-2.5 text-center uppercase text-[#3F72AF]"
               type="submit"
             >
-              Enviar
+              {t('contact.button')}
             </motion.button>
           ) : (
-            <span style={{ fontFamily: "'Bungee Inline', cursive" }}>Mensaje enviado ✔️</span>
+            <span style={{ fontFamily: "'Bungee Inline', cursive" }}>{t('contact.send')} ✔️</span>
           )}
-          {error ? <span className="text-red-400">Debe completar todos los campos</span> : ''}
+          {error ? <span className="text-red-400">{t('contact.error')}</span> : ''}
         </form>
       </div>
     </div>

@@ -11,11 +11,14 @@ import carNext from '../../img/carrusel-next.svg'
 import '../Home/style.css'
 import { TypeAnimation } from 'react-type-animation'
 import { motion } from 'framer-motion'
-import { personalText, socialsLinks } from '../../data'
+import { socialsLinks } from '../../data'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import { Carousel } from 'react-responsive-carousel'
+import { useTranslation } from 'react-i18next'
 
 const Home = () => {
+  const { t } = useTranslation()
+
   return (
     <div
       id="home"
@@ -74,7 +77,7 @@ const Home = () => {
         </div>
 
         <div className="text md:text-[22px] md:w-[70%] mt-6 md:mt-4">
-          <p className="text-[#DBE2EF] workText md:text-[22px]  text-justify">{personalText[0].obj}</p>
+          <p className="text-[#DBE2EF] workText md:text-[22px]  text-justify">{t('personalText.obj')}</p>
         </div>
         <div className="socials flex items-center justify-around md:w-[70%] md:justify-around mt-[30px] mb-0 md:mb-[50px]">
           <ul className="flex">

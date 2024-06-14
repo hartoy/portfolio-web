@@ -5,18 +5,16 @@ import diploma from '../../img/diploma.webp'
 import dh from '../../img/digital-house.png'
 import ProgressBar from './progress-bar'
 import nextsvg from '../../img/next.svg'
+import { useTranslation } from 'react-i18next'
 
 const News = () => {
+  const { t } = useTranslation()
   return (
     <div className="container flex flex-col  md:flex px-4 mx-auto md:px-8 lg:max-w-7xl mt-[80px] md:items-center text-white">
       <div id="proyectos" className="flex-1 flex flex-col md:flex gay-y-12 mb-10 lg:mb-0">
         <div className="workText md:text-[22px]  text-justify">
-          <h2 className="md:text-[72px] text-[42px] mb-4 text-center uppercase">Novedades</h2>
-          <p className="mb-8 md:mb-12 italic text-[DBE2EF]">
-            En el mundo del desarrollo web, la actualización constante es esencial para mantenerse a la vanguardia. Por
-            eso, siempre estoy en busca de nuevas tecnologías y desafíos que me permitan crecer y adaptarme a las
-            demandas del sector. ¡La innovación no se detiene y yo tampoco!
-          </p>
+          <h2 className="md:text-[72px] text-[42px] mb-4 text-center uppercase">{t('navbar.news')}</h2>
+          <p className="mb-8 md:mb-12 italic text-[DBE2EF]">{t('subtitles.subNews')}</p>
         </div>
         <div className="text-news md:flex">
           <div className="flex md:flex md:w-1/2  justify-center items-center md:pr-4">
