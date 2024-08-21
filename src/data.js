@@ -21,6 +21,7 @@ import ImgF23 from '../src/img/hobbies-fifa23.jpg'
 import ImgBtf from '../src/img/hobbies-btf.jpg'
 import ImgLol from '../src/img/hobbies-lol.jpg'
 import ImgTheWeeknd from '../src/img/hobbie-theweeknd.jpg'
+import ImgWeather from '../src/img/proyect-img-weather.jpg'
 
 export const dataSkills = [
   'HTML',
@@ -70,6 +71,13 @@ export const proyects = [
   },
   {
     id: 7,
+    name: 'WeatherFlow',
+    tech: 'REACT',
+    link: 'https://weather-app-red-phi-86.vercel.app/',
+    image: ImgWeather,
+  },
+  {
+    id: 8,
     name: 'LESA',
     tech: 'REACT',
     link: 'https://lesa-prac-u7mu.vercel.app/',
