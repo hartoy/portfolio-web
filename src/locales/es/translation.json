@@ -111,7 +111,7 @@
       "dateEnd": "15/12/12"
     }
   ],
-  "proyects": [
+  "projects": [
     {
       "id": "1",
       "name": "Coral Bim Solutions",
@@ -142,20 +142,27 @@
     },
     {
       "id": "7",
-      "name": "LESA",
+      "name": "WeatherFlow",
       "tech": "REACT",
-      "link": "https://lesa-prac-u7mu.vercel.app/",
+      "link": "https://weather-app-red-phi-86.vercel.app/",
       "image": "imgLesa"
     },
     {
       "id": "8",
+      "name": "LESA",
+      "tech": "REACT",
+      "link": "https://lesa-prac-u7mu.vercel.app/",
+      "image": "imgWeather"
+    },
+    {
+      "id": "9",
       "name": "OSP",
       "tech": "REACT",
       "link": "https://osptest.vercel.app/",
       "image": "imgOSP"
     },
     {
-      "id": "9",
+      "id": "10",
       "name": "Todo",
       "tech": "HTML - CSS - JS",
       "link": "https://todo-list-hartoy.vercel.app/",
